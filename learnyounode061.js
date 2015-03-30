@@ -1,4 +1,4 @@
-var fs = require('fs');
+// var fs = require('fs');
 var mymodule = require('./learnyounode62.js')
 
 // fs.readdir(process.argv[2], function (err, data) {

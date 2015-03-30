@@ -16,11 +16,8 @@ fs.readdir(process.argv[2], function (err, data) {
 
 	for (var i = 0; i < allFiles.length; i++){
 		if (allFiles[i].endsWith(ext)===true){
-			array.push(allFiles[i]);
+			console.log(allFiles[i]);
 		}
-	}
-	for (var j = 0; j < array.length; j++) {
-		console.log(array[j]);
 	}
 });
 
